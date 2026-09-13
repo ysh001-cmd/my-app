@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="GitHub와 Cloudflare Pages 배포를 확인하기 위한 Hello World 앱"
+    />
+    <title>Hello World!</title>
+
+    <!-- 화면 스타일은 별도 파일에서 관리해 수정하기 쉽게 구성합니다. -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="hello-card" aria-labelledby="hello-title">
+        <p class="eyebrow">MY FIRST CLOUDFLARE APP</p>
+        <h1 id="hello-title" tabindex="0">Hello World!</h1>
+        <p id="hello-message" class="message" tabindex="0">I'm ysh001-cmd</p>
+        <p class="hint">위 문구를 클릭하거나 Enter 키를 눌러 보세요.</p>
+      </section>
+    </main>
+
+    <!-- 동작 로직은 HTML을 모두 읽은 뒤 실행합니다. -->
+    <script src="app.js"></script>
+  </body>
+</html>
