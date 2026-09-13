@@ -1,0 +1,8 @@
+# Local Cloudflare CLI state can contain account metadata.
+.wrangler/
+
+# GitHub Actions creates this temporary deployment directory.
+dist/
+
+# macOS metadata
+.DS_Store
